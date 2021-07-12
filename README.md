@@ -4,8 +4,8 @@
 
 ```bash
 git clone https://github.com/SoniaMalhotraQA/GetAPet-XCUITest/
-cd Wikipedia-ios-XCUITest
-xcodebuild -project Wikipedia.xcodeproj -scheme Wikipedia -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=14.5' test
+cd GetAPet-XCUITest
+xcodebuild -project GetAPet.xcodeproj -scheme GetAPet -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=14.5' test
 
 Test Suite 'GetAPetUITests' passed at 2021-07-12 09:44:22.845.
 	 Executed 4 tests, with 0 failures (0 unexpected) in 20.667 (20.669) seconds
